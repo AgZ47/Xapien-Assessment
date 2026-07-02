@@ -4,7 +4,7 @@
 
 ### Sample Outputs
 
-![Console Output - Measurement Extraction](https://github.com/user-attachments/assets/8c26a830-ee83-42e9-a27f-3c09080bc588)
+![Console Output - Measurement Extraction](https://github.com/user-attachments/assets/b11341d7-e985-45c9-b1e2-fc75d9d806af)
 
 ![3D Mesh Visualization](https://github.com/user-attachments/assets/e18d2dac-d94e-412c-b203-8bf29bb4739f)
 

@@ -6,7 +6,7 @@
 
 ![Console Output - Measurement Extraction](https://github.com/user-attachments/assets/8c26a830-ee83-42e9-a27f-3c09080bc588)
 
-![3D Mesh Visualization](https://github.com/user-attachments/assets/3ba4c976-5f7b-45da-b271-d72e008dcdd2)
+![3D Mesh Visualization](https://github.com/user-attachments/assets/e18d2dac-d94e-412c-b203-8bf29bb4739f)
 
 ---
 

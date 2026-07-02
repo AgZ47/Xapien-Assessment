@@ -1,0 +1,37 @@
+## 1. 3D Mesh Measurement Extraction & Visualization
+
+**Dependencies:** `numpy`, `trimesh`
+
+### Sample Outputs
+
+![Console Output - Measurement Extraction](https://github.com/user-attachments/assets/8c26a830-ee83-42e9-a27f-3c09080bc588)
+
+![3D Mesh Visualization](https://github.com/user-attachments/assets/3ba4c976-5f7b-45da-b271-d72e008dcdd2)
+
+---
+
+## 2. Measurement Normalization & Outlier Detection Engine
+
+**Dependencies:** *None (Zero external dependencies)*
+
+### Sample Input
+
+```json
+{
+  "Height": 71, 
+  "Chest": 105, 
+  "Waist": 180, 
+  "Hip": 100, 
+  "Arm Length": null
+}
+```
+
+### Sample Outputs
+![Console Output - Outlier Detection](https://github.com/user-attachments/assets/4dc5dd6b-e33c-42fe-9383-056fa53e575a)
+
+## 3.The "Best-Fit" Multi-Constraint Search Algorithm
+
+**Dependencies:** `numpy`, `chromadb`
+
+### Sample Outputs for Mock Inputs:
+![Console Output - Search Results](https://github.com/user-attachments/assets/e2ac4b18-c729-432f-bf86-6d53fb0b8304)

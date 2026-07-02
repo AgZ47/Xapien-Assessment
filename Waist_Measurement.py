@@ -31,12 +31,12 @@ def calculate_circumference(mesh, height_y): # Slices the mesh at certain height
         
     return 0.0, slice_path
 
-def main():
+if __name__ == "__main__":
     try:
-        mesh = trimesh.load('human_body.obj', force='mesh')
+        mesh = trimesh.load('image_smpl.obj', force='mesh')
     except Exception as e:
         print(f"Failed to load mesh: {e}")
-        return
+        exit()
 
     # mesh.bounds returns [[xmin, ymin, zmin], [xmax, ymax, zmax]]
     # We now target index 1 for the Y-axis
@@ -58,6 +58,3 @@ def main():
         scene = trimesh.Scene([mesh, waist_slice])
         print("Opening visualization window...")
         scene.show()
-
-if __name__ == "__main__":
-    main()
